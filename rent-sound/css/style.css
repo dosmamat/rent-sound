@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 600; }
+
+a {
+  text-decoration: none; }
+
+header {
+  background: black;
+  display: flex;
+  justify-content: center; }
+
+.menu {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  margin: 20px;
+  font-size: 14px;
+  justify-content: space-between; }
+
+.menu__item {
+  margin: 0 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase; }
+  .menu__item i {
+    transition: 0.7s;
+    margin-right: 10px; }
+  .menu__item:hover {
+    color: #c400e6; }
+
+.menu__text {
+  transition: 0.7s;
+  border-bottom: 1px rgba(255, 255, 255, 0) solid; }
+
+.menu__text:hover {
+  border-bottom: 1px white solid; }
+
+.panel-full {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #c400e6; }
+  .panel-full .content {
+    width: 100%;
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px; }
+
+.logo img {
+  max-width: 100%;
+  max-height: 120px; }
+
+.phone-mail {
+  display: flex;
+  align-items: center;
+  color: white; }
+  .phone-mail .wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    font-weight: 300; }
+    .phone-mail .wrap a {
+      color: white;
+      text-decoration: none; }
+    .phone-mail .wrap a:nth-child(1) {
+      font-size: 22px; }
+  .phone-mail i {
+    font-size: 35px; }
+
+.bt-callBack {
+  color: white;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid #03a9f4;
+  transition: .7s; }
+  .bt-callBack:hover {
+    background: #0b3143;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: 0 0 5px white; }
+
+.panel-info, .panel-boxs {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.boxer {
+  display: flex;
+  position: absolute;
+  margin-top: -150px;
+  width: 100%;
+  max-width: 1000px;
+  justify-content: space-between; }
+
+.boxer__item {
+  width: 200px;
+  height: 200px;
+  background: white;
+  box-shadow: 0 0 10px rgba(196, 0, 230, 0.6); }
+
+.panel-info .content {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 0 50px rgba(196, 0, 230, 0.6); }
+
+footer {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background: black;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
